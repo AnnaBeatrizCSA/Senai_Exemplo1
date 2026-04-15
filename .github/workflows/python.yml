@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Obter o código
-        uses: action/checkout@4
+        uses: actions/checkout@v4
 
       - name: Setup Pyhton
         uses: actions/setup-python@v6.2.0
